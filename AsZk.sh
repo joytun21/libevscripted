@@ -889,6 +889,14 @@ print_succes "Service Xray-lock"
 clear
 function inskill_ssh(){
 clear
+print_install "Menjalankan Cron"
+wget "${CONFIG}run-cron.sh"
+chmod +x run-cron.sh
+./run-cron.sh
+print_succes "Cron"
+}
+function inscron(){
+clear
 print_install "ssh Autokill"
 wget "${CONFIG}SSH-service.sh"
 chmod +x SSH-service.sh
@@ -984,6 +992,7 @@ enable_services
 ins_service_xray
 inskill_ssh
 udepe_install
+inscron
 restart_system
 }
 instal

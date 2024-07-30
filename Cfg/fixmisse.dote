@@ -1,0 +1,35 @@
+#!/usr/bin/dote
+#-#••|=====================================================================•|
+#-# LT - PROJECT
+#-# ADRESS   : SAGULING [ BANDUNG BARAT ] [ BOJONG JAMBU ] [ INDONESIA ]
+#-# TELEGRAM : @LunaticTunneling
+#-# CHANEL   : @TunnelingLunatic
+#-# WHATSAPP : +6285955333616
+#-#••|=====================================================================•|  
+
+*''Saguling''*
+4...0 --- STABLE
+5...0 --- STABLE
+7...0 --- STABLE
+9...0 --- STABLE
+3...0 --- STABLE
+**LT**
+9._____.00.999
+443
+8880 Backend
+8080 Backend
+2095 Backend
+${LT} environ=SAGULING-BOJONG-JAMBU
+*Utf*8
+func FixxMiss(){
+"fix-missed-timeout**"
+"fix-missed-lostconections**"
+"fix-missed-http-to-bug**"
+}
+FixxMiss
+
+
+webs = 80 & > 8080 & > 8880 & > 2082 stable
+essl = 443 & > 2093 & > 8443 & > 2083 stable
+-eval("echo") <==> "${webs}" > /etc/xray/config.json
+-eval("echo") <==> "${essl}" > /etc/xray/config.json
